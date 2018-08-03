@@ -1,0 +1,86 @@
+/*html,
+body,
+header,
+#intro{
+
+    height: 100%;
+}
+#intro{
+
+    background: url("/assets/Ba.png") no-repeat center center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+}   
+*/
+
+body{
+
+
+    color: #f2055c;  //لون نص العمق 
+    background-color: #333366; // لون خلفية العمق
+    height: 100PX;
+
+
+  
+}
+
+#F1{
+   background-color: #f2055c; // خلفة الهيدر العلوي
+   
+
+}
+.footer-copyright{
+
+    color: #333366
+}
+.page-footer{
+
+    background-color: #f2055c;
+}
+
+.navbar {
+    width:100%;
+    background:none !important;
+
+    @media(max-width: 34em) {
+        background: #f2055c !important; // لون خلفية قائمة الجوال
+    }
+
+    .navbar-toggler {
+        cursor:pointer;
+        outline:0;
+        
+    }
+
+    .nav-link {
+        text-transform:small;
+        font-weight:normal;
+        font-size: 25px; // خط فقرات الهيدر العلوي
+    }
+
+    .nav-item {
+        padding: 0 1.5rem; // المسافة بين ازرار الهيدر العلوي
+
+        @media(max-width: 10em) {
+            padding: 0;
+            color: #f2055c;
+        }
+
+        .nav-link {
+            @media(max-width:10em) {
+                font-weight:normal;
+                color:#333366 !important; //لون خط قائمة الجوال
+            }
+        }
+        .navbar-brand{
+         color: #f2055c;
+
+        }
+    }
+  
+
+}
+
+

@@ -1,0 +1,55 @@
+/*html,
+body,
+header,
+#intro{
+
+    height: 100%;
+}
+#intro{
+
+    background: url("/assets/Ba.png") no-repeat center center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    background-size:cover;
+}   
+*/
+body {
+  color: #f2055c;
+  background-color: #333366;
+  height: 100PX; }
+
+#F1 {
+  background-color: #f2055c; }
+
+.footer-copyright {
+  color: #333366; }
+
+.page-footer {
+  background-color: #f2055c; }
+
+.navbar {
+  width: 100%;
+  background: none !important; }
+  @media (max-width: 34em) {
+    .navbar {
+      background: #f2055c !important; } }
+  .navbar .navbar-toggler {
+    cursor: pointer;
+    outline: 0; }
+  .navbar .nav-link {
+    text-transform: small;
+    font-weight: normal;
+    font-size: 25px; }
+  .navbar .nav-item {
+    padding: 0 1.5rem; }
+    @media (max-width: 10em) {
+      .navbar .nav-item {
+        padding: 0;
+        color: #f2055c; } }
+    @media (max-width: 10em) {
+      .navbar .nav-item .nav-link {
+        font-weight: normal;
+        color: #333366 !important; } }
+    .navbar .nav-item .navbar-brand {
+      color: #f2055c; }
